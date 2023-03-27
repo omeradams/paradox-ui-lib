@@ -734,7 +734,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 				TweenService:Create(
 					Button,
 					TweenInfo.new(.2, Enum.EasingStyle.Quart, Enum.EasingDirection.Out),
-					{BackgroundColor3 = Color3.fromRGB(29, 26, 53)}
+					{BackgroundColor3 = Color3.fromRGB(15, 15, 15)}
 				):Play()
 				TweenService:Create(
 					Button,
