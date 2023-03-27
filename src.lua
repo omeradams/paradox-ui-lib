@@ -235,7 +235,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 
 	LeftFrameBtn.Name = "LeftFrameBtn"
 	LeftFrameBtn.Parent = LeftFrame
-	LeftFrameBtn.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
+	LeftFrameBtn.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 	LeftFrameBtn.BackgroundTransparency = 1.000
 	LeftFrameBtn.BorderSizePixel = 0
 	LeftFrameBtn.Position = UDim2.new(0, 0, 0.00999999978, 0)
