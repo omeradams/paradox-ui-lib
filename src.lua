@@ -787,7 +787,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 
 			ToggleBtn.Name = "ToggleBtn"
 			ToggleBtn.Parent = NewPages
-			ToggleBtn.BackgroundColor3 = Color3.fromRGB(29, 26, 53)
+			ToggleBtn.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
 			ToggleBtn.BorderSizePixel = 0
 			ToggleBtn.Size = UDim2.new(0, 375, 0, 32)
 			ToggleBtn.AutoButtonColor = false
@@ -802,13 +802,13 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 					TweenService:Create(
 						ToggleBox,
 						TweenInfo.new(.35, Enum.EasingStyle.Quart, Enum.EasingDirection.Out),
-						{BackgroundColor3 = Color3.fromRGB(135, 128, 176)}
+						{BackgroundColor3 = Color3.fromRGB(106, 106, 107)}
 					):Play()
 				else
 					TweenService:Create(
 						ToggleBox,
 						TweenInfo.new(.35, Enum.EasingStyle.Quart, Enum.EasingDirection.Out),
-						{BackgroundColor3 = Color3.fromRGB(74, 68, 94)}
+						{BackgroundColor3 = Color3.fromRGB(82, 82, 82)}
 					):Play()
 				end
 			end)
@@ -818,7 +818,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 					TweenService:Create(
 						ToggleBtn,
 						TweenInfo.new(.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out),
-						{BackgroundColor3 = Color3.fromRGB(33, 31, 56)}
+						{BackgroundColor3 = Color3.fromRGB(43, 43, 43)}
 					):Play()
 				end
 			)
@@ -828,7 +828,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 					TweenService:Create(
 						ToggleBtn,
 						TweenInfo.new(.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out),
-						{BackgroundColor3 = Color3.fromRGB(29, 26, 53)}
+						{BackgroundColor3 = Color3.fromRGB(18, 18, 18)}
 					):Play()
 				end
 			)
@@ -847,7 +847,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 
 			ToggleBox.Name = "ToggleBox"
 			ToggleBox.Parent = ToggleBtn
-			ToggleBox.BackgroundColor3 = Color3.fromRGB(74, 68, 94)
+			ToggleBox.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
 			ToggleBox.Position = UDim2.new(0.927419364, 0, 0.15625, 0)
 			ToggleBox.Size = UDim2.new(0, 21, 0, 21)
 
@@ -889,7 +889,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 					TweenService:Create(
 						Slider,
 						TweenInfo.new(.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out),
-						{BackgroundColor3 = Color3.fromRGB(33, 31, 56)}
+						{BackgroundColor3 = Color3.fromRGB(36, 36, 36)}
 					):Play()
 				end
 			)
@@ -899,7 +899,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 					TweenService:Create(
 						Slider,
 						TweenInfo.new(.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out),
-						{BackgroundColor3 = Color3.fromRGB(29, 26, 53)}
+						{BackgroundColor3 = Color3.fromRGB(33, 32, 33)}
 					):Play()
 				end
 			)
@@ -946,7 +946,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 			Value.Name = "Value"
 			Value.Parent = SliderTitle
 			Value.AnchorPoint = Vector2.new(1, 0.5)
-			Value.BackgroundColor3 = Color3.fromRGB(74, 68, 94)
+			Value.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
 			Value.BackgroundTransparency = 0
 			Value.Position = UDim2.new(0.983, 0,0.484, 0)
 			Value.Size = UDim2.new(0, 38, 0, 21)
@@ -1092,7 +1092,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 			Dropdown.Name = "Dropdown"
 			Dropdown.Parent = NewPages
 			Dropdown.AnchorPoint = Vector2.new(0.5, 0.5)
-			Dropdown.BackgroundColor3 = Color3.fromRGB(29, 26, 53)
+			Dropdown.BackgroundColor3 = Color3.fromRGB(28, 28, 28)
 			Dropdown.BorderSizePixel = 0
 			Dropdown.Position = UDim2.new(-0.436928689, 0, 0.696994126, 0)
 			Dropdown.Size = UDim2.new(0, 375, 0, 32)
@@ -1107,7 +1107,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 					TweenService:Create(
 						Dropdown,
 						TweenInfo.new(.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out),
-						{BackgroundColor3 = Color3.fromRGB(33, 31, 56)}
+						{BackgroundColor3 = Color3.fromRGB(35, 35, 36)}
 					):Play()
 				end
 			)
@@ -1117,7 +1117,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 					TweenService:Create(
 						Dropdown,
 						TweenInfo.new(.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out),
-						{BackgroundColor3 = Color3.fromRGB(29, 26, 53)}
+						{BackgroundColor3 = Color3.fromRGB(23, 23, 23)}
 					):Play()
 				end
 			)
@@ -1153,7 +1153,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 			DropItemHolder.Name = "DropItemHolder"
 			DropItemHolder.Parent = NewPages
 			DropItemHolder.Active = true
-			DropItemHolder.BackgroundColor3 = Color3.fromRGB(29, 26, 53)
+			DropItemHolder.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
 			DropItemHolder.BackgroundTransparency = 0
 			DropItemHolder.BorderSizePixel = 0
 			DropItemHolder.Position = UDim2.new(0, 0, 0.202399909, 0)
@@ -1226,7 +1226,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 				Option.Name = "Option"
 				Option.Parent = DropItemHolder
 				Option.AnchorPoint = Vector2.new(0.5, 0.5)
-				Option.BackgroundColor3 = Color3.fromRGB(29, 26, 53)
+				Option.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
 				Option.BorderSizePixel = 0
 				Option.BorderColor3 = Color3.fromRGB(24, 21, 48)
 				Option.Position = UDim2.new(0.494680852, 0, 0.147959188, 0)
@@ -1250,7 +1250,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 						TweenService:Create(
 							Option,
 							TweenInfo.new(.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out),
-							{BackgroundColor3 = Color3.fromRGB(33, 31, 56)}
+							{BackgroundColor3 = Color3.fromRGB(23, 23, 23)}
 						):Play()
 						TweenService:Create(
 							Option,
@@ -1265,7 +1265,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 						TweenService:Create(
 							Option,
 							TweenInfo.new(.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out),
-							{BackgroundColor3 = Color3.fromRGB(29, 26, 53)}
+							{BackgroundColor3 = Color3.fromRGB(23, 23, 23)}
 						):Play()
 						TweenService:Create(
 							Option,
