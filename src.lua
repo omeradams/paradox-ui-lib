@@ -166,7 +166,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 	MainFrameGlow.Name = "MainFrameGlow"
 	MainFrameGlow.Parent = Library
 	MainFrameGlow.AnchorPoint = Vector2.new(0.5, 0.5)
-	MainFrameGlow.BackgroundColor3 = Color3.fromRGB(21, 18, 45)
+	MainFrameGlow.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
 	MainFrameGlow.BackgroundTransparency = 1.000
 	MainFrameGlow.BorderSizePixel = 0
 	MainFrameGlow.Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -226,7 +226,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 	
 	LeftFrame.Name = "LeftFrame"
 	LeftFrame.Parent = MainFrame
-	LeftFrame.BackgroundColor3 = Color3.fromRGB(31, 28, 54)
+	LeftFrame.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 	LeftFrame.BorderSizePixel = 0
 	LeftFrame.ClipsDescendants = true
 	LeftFrame.Size = UDim2.new(0, 41, 0, 331)
